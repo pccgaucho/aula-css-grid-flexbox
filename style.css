@@ -1,0 +1,26 @@
+* {
+    border: 0;
+}
+
+body {
+    display: grid;
+    background-color: #edb5bd;
+    grid-template-columns: 1fr 4fr;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    grid-template-rows: 1fr 6fr 1fr;
+    height: 97vh;
+}
+
+header, aside, main, footer {
+    background-color: #a3dfd9;
+    border: solid #edb5bd 2px;
+    padding-top: 20px;
+    border-radius: 10px;    
+}
+
+header, footer {
+    grid-column: 1/3;
+
+}
